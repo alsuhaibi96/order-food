@@ -1,0 +1,71 @@
+/*Menu code*/
+
+ html {
+    overflow-y: hidden;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+}
+.image{
+ background-color: black;
+}
+
+.ul1{
+    
+    list-style-type:none;
+    margin:0;
+    padding:5px;
+    overflow:hidden;
+    background-color:#333333;
+    border-radius: 10px;
+ font-size:150%;
+
+     
+   
+}
+li_get_started{
+    
+    background-color:FF7F50
+}
+
+.li1{
+    float: right;
+    
+     padding:10px;
+}
+
+.li1 a {
+    
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+li1 a:hover {
+  background-color: #111111;
+}
+
+
+
+.burger_text{
+    
+    position: absolute;
+    top:150px;
+  left:12px;
+    color: 	FF8C00;
+    text-decoration-color:black;
+    font-size:80px;
+}
+.burger_paragraph{
+     position: absolute;
+    top:250px;
+    left:12px;
+    color: 	FF8C00;
+    font-size:30px;
+    
+}
